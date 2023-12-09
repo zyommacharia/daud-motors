@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daud Motors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img src="Images/Logo3.png" alt="My Logo">
+        <ul id="sidemenu">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Aboutus.html">About</a></li>
+            <li><a href="Others.html">Others</a></li>
+            <li><a href="Contacts.html">Contact</a></li>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div id="header">
+        <div class="container">
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            <div class="header-text">
+                <p id="typing-text">SHOP DAUD.OWN YOUR DREAM</p>
+                <h1>Hello, <span class="input"></span></h1>
+                <script>
+                    var typed = new Typed(".input",{
+                        strings:[" Welcome to Daud Motors,","Get a free goat and/or full tank on any car bought ",],
+                        typeSpeed:70,
+                        backspeed:60,
+                        loop:true
+                });
+                </script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
